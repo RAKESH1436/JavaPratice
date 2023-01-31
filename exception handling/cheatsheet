@@ -1,0 +1,35 @@
+mongoDb commands for database...
+
+View all database
+show dbs 
+
+create a new or switch database
+use dbName
+
+view current database
+db
+
+delete database
+db.dropDatabase()
+
+mongoDb commands for collections
+show collections
+
+create a collections named 'cpmments'
+db.createCollection('comments')
+
+create a collections named 'comments'
+db.mycomments.drop()
+
+mongoDb commands for Rows
+insert Rows
+db.commands.insert({
+    'name':'harry',
+    'lang':'javascript',
+    'member_since':5
+})
+
+
+
+
+
