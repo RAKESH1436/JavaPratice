@@ -9,7 +9,7 @@ use dbName
 view current database
 db
 
-delete database
+delete database   
 db.dropDatabase()
 
 mongoDb commands for collections
@@ -28,6 +28,9 @@ db.commands.insert({
     'lang':'javascript',
     'member_since':5
 })
+
+
+
 
 
 
