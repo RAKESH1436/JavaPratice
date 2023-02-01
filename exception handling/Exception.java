@@ -32,8 +32,8 @@ public class Exception {
             
             // && operator
             
-            System.out.println((p > q) && (p > r)); //t //t
-            System.out.println((p > q) && (p < r)); //f //f
+              System.out.println((p > q) && (p > r)); //t //t
+              System.out.println((p > q) && (p < r)); //f //f
             
             // || operator
             
